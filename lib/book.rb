@@ -7,6 +7,11 @@ class Book
   def initialize(title)
     @title = title
   end
+
+  # method to turn the page
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
 end
 
 
